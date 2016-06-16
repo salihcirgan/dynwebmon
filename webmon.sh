@@ -8,9 +8,6 @@ httpstatus=()
 index=0
 downips=()
 upips=()
-keyfile=/etc/bind/key.txt
-delfile=/tmp/nsupdatedel
-addfile=/tmp/nsupdateadd
 
 for i in ${dnsiplist[@]}
 
